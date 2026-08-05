@@ -15,5 +15,23 @@ body{
     align-items: center;
     min-height: 100vh;
     font-family: Figtree, sans-serif;
-    background: #f4d04e;
+    background: var(--yellow);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--white);
+    padding: 1.5rem;
+    width: 22rem;
+    border-radius: 1.4rem;
+    border: 0.1rem solid var(--gray950);
+    box-shadow: 0.5rem 0.5rem 0 var(--gray950);
+}
+
+.mainImg{
+    width: 100%;
+    display: block;
+    border-radius: 1rem;
 }
