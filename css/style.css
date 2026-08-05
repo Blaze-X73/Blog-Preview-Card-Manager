@@ -1,0 +1,19 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --yellow: #f4d04e;
+    --white: #ffffff;
+    --gray500: #6b6b6b;
+    --gray950: #121212;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Figtree, sans-serif;
+    background: #f4d04e;
+}
