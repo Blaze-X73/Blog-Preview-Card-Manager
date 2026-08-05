@@ -22,9 +22,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1.8rem;
     background: var(--white);
     padding: 1.5rem;
-    width: 22rem;
+    width: min(22rem, 80%);
     border-radius: 1.4rem;
     border: 0.1rem solid var(--gray950);
     box-shadow: 0.5rem 0.5rem 0 var(--gray950);
@@ -34,4 +35,52 @@ body{
     width: 100%;
     display: block;
     border-radius: 1rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0;
+}
+
+.learning{
+    font-weight: 800;
+    background: var(--yellow);
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.3rem;
+}
+
+.date{
+    font-size: 1rem;
+    
+}
+
+.foundatios{
+    display: flex;
+    flex-direction: column;
+}
+
+.foundations h1{
+    font-weight: 800;
+    font-size: min(1.6rem, 1.6rem);
+}
+
+.foundations p{
+    font-size: 1rem;
+    color: var(--gray500);
+    line-height: 1.4rem;
+}
+
+.author{
+    display: flex;
+}
+
+.author img{
+    width: 3rem;
+}
+
+.author span{
+    font-weight: 800;
 }
