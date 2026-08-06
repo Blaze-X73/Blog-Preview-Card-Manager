@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![] ./assets/images/screenshot.png
 
 ### Links
 
@@ -36,28 +36,14 @@ Users should be able to:
 
 ## My process
 
-
+I created the mobile website 1st and it was a bit too big so I hade to scale it down,
 
 ### Built with
 
 - Semantic HTML5 markup
 
-### What I learned
-
-
-
-### Continued development
-
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-
-### AI Collaboration
-
-
 ## Author
+
 
 - Frontend Mentor - [@Blaze-X73](https://www.frontendmentor.io/profile/Blaze-X73)
 
