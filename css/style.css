@@ -29,7 +29,7 @@ body {
     gap: 1rem;
     background: var(--white);
     padding: 1rem;
-    width: clamp(13rem, 14rem + 0.5vw, 15rem);
+    width: clamp(16.5rem + 1rem, 15rem + 0.2vw + 1rem, 17rem + 1rem);
     border-radius: min(1rem, 5vw);
     border: 0.05rem solid var(--gray950);
     box-shadow: 0.3rem 0.3rem 0 var(--gray950);
@@ -75,20 +75,22 @@ body {
 
 .foundations h1 {
     font-weight: 800;
-    font-size: clamp(1.25rem, 1rem + 0.5vw, 1.5rem);
+    font-size: clamp(1.05rem, 1rem + 0.5vw, 1.3rem);
     margin: 0;
     cursor: pointer;
-    transition: 0.3s;
-}
-
-.foundations h1:hover {
-    color: var(--yellow);
+    word-wrap: none;
 }
 
 .foundations h1 a {
     text-decoration: none;
     color: inherit;
     color: var(--gray950);
+    transition: color 0.3s ease;
+    word-wrap: none;
+}
+
+.foundations h1 a:hover {
+    color: var(--yellow);
 }
 
 .foundations p {
